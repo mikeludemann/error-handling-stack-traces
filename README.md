@@ -2,16 +2,16 @@
 
 A simple helpful small library to parse and handle the error stack traces
 
-# errorstacks
+## Information
 
-Simple parser for Error stack traces.
+Supported for different browsers and platforms:
 
-Currently supported browsers/platforms:
-
-- Firefox
-- Chrome
-- Edge
-- Node
+* Firefox
+* Chrome
+* Edge
+* Internet Explorer (IE)
+* Node
+* ...
 
 ## Usage
 
