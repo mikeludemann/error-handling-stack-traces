@@ -1,0 +1,19 @@
+{
+	"extends": "./tsconfig.json",
+	"compilerOptions": {
+		//"target": "es5",
+		"module": "ES2020",
+		"sourceMap": false,
+    "declaration": true,
+    "declarationDir": "./dist/esm",
+		//"stripInternal": true,
+		"lib": [ "es2020" ],
+		"outDir": "./dist/esm",
+		"incremental": true,
+		"tsBuildInfoFile":"./dist/tsconfig.esm.tsbuildInfo",
+		"rootDir": "src"
+	},
+	"include": [
+		"src"
+	]
+}
